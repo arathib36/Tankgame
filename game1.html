@@ -1,0 +1,60 @@
+<DOCTYPEhtml>
+<html>
+<head>
+<title>TANKER GAME</title>
+<link rel="stylesheet" href="gamestyle.css" type="text/css"/>
+
+</style>
+</head>
+<body>
+
+<canvas>
+
+</canvas>
+
+<div class="controls">
+<br>
+
+Select the required angle,power and Missile and click SHOOT!<br>
+<l id="desc">PLAYER 1:Points:</l>
+<l class="point1" id="p1">00</l>
+<l id="desc">Coins:</l>
+<l id="coin1" id="p1">05</l>
+<input type="button" value="SHOOT" id="button"/>
+<l id="des">PLAYER 2:Points:</l>
+<l class="point2" id="p2">00</l>
+<l id="desc">Coins:</l>
+<l id="coin2" id="p1">05</l>
+<br><br>
+<l id="desc">ANGLE:</l>
+<input type="text" placeholder="70" id="angle"/>
+<l id="desc">POWER</l>
+
+<select id="power">
+  <option value="1">LOW</option>
+  <option value="2">MEDIUM</option>
+  <option value="3">HIGH</option>
+</select>
+<l id="desc">MISSILE:</l>
+<select id="missile">
+  <option value="1">STONE(Attack=1) COIN:1</option>
+  <option value="2">ICE(Attack=3) COINS:2</option>
+  <option value="3">BOMB(Attack=5) COINS:3</option>
+</select>
+<br><br>
+<input type="button" value="PAUSE" id="pause"/>
+<input type="button" value="RESUME" id="resume"/>
+<input type="button" value="RESTART" id="restart"/>
+<br>
+
+
+
+</div>
+
+<script src="tankgame.js"></script>
+
+
+
+
+</body>
+</html>

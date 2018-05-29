@@ -1,0 +1,112 @@
+ canvas{
+border:1px solid black;
+background:yellow;
+}
+
+#angle{position:center;width:50px;}
+
+.controls{
+background-color:black;
+height:180px;
+color:white;
+font-weight:bold;
+
+}
+
+.point1{
+background-color:yellow;
+color:red;
+font-weight: bold;
+height:50px;
+width:50px;
+
+}
+
+.point2{
+background-color:yellow;
+color:red;
+font-weight: bold;
+height:50px;
+width:50px;
+
+}
+#coin1{background-color:yellow;
+color:red;
+font-weight: bold;
+height:50px;
+width:50px;
+
+}
+#coin2{background-color:yellow;
+color:red;
+font-weight: bold;
+height:50px;
+width:50px;
+
+}
+
+#desc{color:white;
+font-weight: bold;
+
+}
+
+#des{color:white;
+font-weight: bold;
+margin-left:280px;
+}
+#button
+{   position:center;
+    background-color: #eee;
+    border-style: solid;
+    border-width: 20px
+    border-color: yellow;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-left:280px;
+    cursor: pointer;
+}
+#pause{position:center;
+    width:100px;
+    background-color: #eee;
+    border-style: solid;
+    border-width: 20px
+    border-color: yellow;
+    color: red;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-left:320px;
+    cursor: pointer;
+}
+
+#resume{position:center;
+    width:100px;
+    background-color: #eee;
+    border-style: solid;
+    border-width: 20px
+    border-color: yellow;
+    color: red;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-left:10px;
+    cursor: pointer;
+}
+#restart{position:center;
+    width:100px;
+    background-color: #eee;
+    border-style: solid;
+    border-width: 20px
+    border-color: yellow;
+    color: red;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-left:10px;
+    cursor: pointer;
+}
